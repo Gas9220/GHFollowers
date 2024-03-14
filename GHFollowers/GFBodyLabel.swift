@@ -17,12 +17,13 @@ class GFBodyLabel: UILabel {
         fatalError("init(coder:) has not been implemented")
     }
 
-    init(textAlign: NSTextAlignment) {
+    init(textAlignment: NSTextAlignment) {
         super.init(frame: .zero)
         self.textAlignment = textAlignment
+        configure()
     }
 
-    func configure() {
+    private func configure() {
         textColor = .secondaryLabel
         font = UIFont.preferredFont(forTextStyle: .body)
         adjustsFontSizeToFitWidth = true
