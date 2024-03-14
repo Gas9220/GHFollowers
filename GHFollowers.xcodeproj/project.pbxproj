@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B41232D2BA33FB300F5AB69 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41232C2BA33FB300F5AB69 /* FollowerListVC.swift */; };
+		6B41232F2BA344A500F5AB69 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41232E2BA344A500F5AB69 /* GFTitleLabel.swift */; };
 		6BC42D182BA07A8F0040FB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC42D172BA07A8F0040FB8E /* AppDelegate.swift */; };
 		6BC42D1A2BA07A8F0040FB8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC42D192BA07A8F0040FB8E /* SceneDelegate.swift */; };
 		6BC42D212BA07A910040FB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC42D202BA07A910040FB8E /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		6B41232C2BA33FB300F5AB69 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		6B41232E2BA344A500F5AB69 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		6BC42D142BA07A8F0040FB8E /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC42D172BA07A8F0040FB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BC42D192BA07A8F0040FB8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				6BC42D2F2BA08F9B0040FB8E /* GFButton.swift */,
 				6BC42D312BA091AB0040FB8E /* GFTextField.swift */,
 				6B41232C2BA33FB300F5AB69 /* FollowerListVC.swift */,
+				6B41232E2BA344A500F5AB69 /* GFTitleLabel.swift */,
 				6BC42D202BA07A910040FB8E /* Assets.xcassets */,
 				6BC42D222BA07A910040FB8E /* LaunchScreen.storyboard */,
 				6BC42D252BA07A910040FB8E /* Info.plist */,
@@ -150,6 +153,7 @@
 				6BC42D2E2BA08C630040FB8E /* FavoritesListVC.swift in Sources */,
 				6BC42D302BA08F9B0040FB8E /* GFButton.swift in Sources */,
 				6BC42D2C2BA08C460040FB8E /* SearchVC.swift in Sources */,
+				6B41232F2BA344A500F5AB69 /* GFTitleLabel.swift in Sources */,
 				6B41232D2BA33FB300F5AB69 /* FollowerListVC.swift in Sources */,
 				6BC42D182BA07A8F0040FB8E /* AppDelegate.swift in Sources */,
 				6BC42D1A2BA07A8F0040FB8E /* SceneDelegate.swift in Sources */,
