@@ -35,7 +35,7 @@ extension UIViewController {
 
         let activityIndicator = UIActivityIndicatorView(style: .large)
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
-        
+
         containerView.addSubview(activityIndicator)
 
         NSLayoutConstraint.activate([
@@ -44,5 +44,12 @@ extension UIViewController {
         ])
 
         activityIndicator.startAnimating()
+    }
+
+    func dismissLoadingView() {
+        DispatchQueue.main.async {
+            containerView.removeFromSuperview()
+            containerView = nil
+        }
     }
 }
